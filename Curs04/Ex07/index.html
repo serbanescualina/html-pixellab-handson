@@ -16,7 +16,434 @@
 </head>
 
 <body>
+  <p>
+    <a
+      href="https://www.google.com/"
+      target="_blank"
+      id="home"
+      title="Home"
+      rel="noopener noreferrer"
+    >Home</a>
+    <span> * </span>
+    <a
+      href="https://www.google.com/"
+      target="_blank"
+      id="create_account"
+      title="Place Order"
+      rel="noopener noreferrer"
+    > <b>Place Order</b></a>
+    <span> * </span>
+    <a
+      href="https://www.google.com/"
+      target="_blank"
+      id="customer_service"
+      title="Customer Service"
+      rel="noopener noreferrer"
+    >Customer Service</a>
+    <span> * </span>
+    <a
+      href="https://www.google.com/"
+      target="_blank"
+      id="contact"
+      title="Contact"
+      rel="noopener noreferrer"
+    >Contact</a>
+  </p>
+  <h1>Place Order</h1>
+  <p>This is the <b>guest checkout</b>, thank you for your order!</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
+  <h2>Products</h2>
+  <p><img
+      src="images/mouse.jpg"
+      alt="Mouse"
+      title="Mouse"
+    >
+    <a
+      href="https://www.google.com/"
+      target="_blank"
+      title="Sterge"
+      rel="noopener noreferrer"
+    >Sterge</a>
+    <a
+      href="https://www.google.com/"
+      target="_blank"
+      title="Editeaza"
+      rel="noopener noreferrer"
+    >Editeaza</a>
+  </p>
+
+  <hr>
+  <p>
+    <img
+      src="images/extension_chord.jpg"
+      title="extension_chord"
+      alt="extension_chord"
+    >
+    <a
+      href="https://www.google.com/"
+      target="_blank"
+      title="Sterge"
+      rel="noopener noreferrer"
+    >Sterge</a>
+    <a
+      href="https://www.google.com/"
+      target="_blank"
+      title="Editeaza"
+      rel="noopener noreferrer"
+    >Editeaza</a>
+  </p>
+
+  <hr>
+  <p>
+    <img
+      src="images/phone.jpg"
+      title="phone"
+      alt="phone"
+    >
+    <a
+      href="https://www.google.com/"
+      target="_blank"
+      title="Sterge"
+      rel="noopener noreferrer"
+    >Sterge</a>
+    <a
+      href="https://www.google.com/"
+      target="_blank"
+      title="Editeaza"
+      rel="noopener noreferrer"
+    >Editeaza</a>
+  </p>
+  <hr>
+  <h2>Order Now</h2>
+  <p>On our website <i>no account is needed</i>.</p>
+  <ol>
+    <li>First we need some info about yourself. <b>Don’t forget to provide a phone.</b></li>
+    <li>Then we need your real shipping address. </li>
+    <li>Finally, your credit card information.</li>
+  </ol>
+
+  <form action="">
+    <fieldset>
+      <legend>Personal Information:</legend>
+      <p>
+        Title:
+        <label for="male">Mr</label>
+        <input
+          type="radio"
+          name="gender"
+          id="male"
+          value="male"
+          required
+          checked
+        >
+        <label for="female">Ms</label>
+        <input
+          type="radio"
+          name="gender"
+          id="female"
+          value="female"
+          required
+        >
+        <label for="na">Unspecified</label>
+        <input
+          type="radio"
+          name="gender"
+          id="na"
+          value="na"
+          required
+        >
+      </p>
+      <label for="name">*Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Name"
+        required
+      >
+      <br><br>
+      <label for="surname">*Surname</label>
+      <input
+        type="text"
+        name="surname"
+        id="surname"
+        placeholder="Surname"
+        required
+      >
+      <br>
+      <br>
+      <label for="username">*Username</label>
+      <input
+        type="text"
+        name="username"
+        id="username"
+        placeholder="Username"
+        required
+      >
+      <br>
+      <br>
+      <label for="email">*Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Email"
+        required
+      >
+      <br>
+      <br>
+      <label for="phone">*Phone</label>
+      <input
+        type="tel"
+        name="phone"
+        id="phone"
+        placeholder="Phone"
+        required
+      >
+      <br>
+      <br>
+    </fieldset>
+    <fieldset>
+      <legend>Address</legend>
+      <label for="address-name">*Name</label>
+      <input
+        type="text"
+        name="address-name"
+        id="address-name"
+        placeholder="Name"
+        required
+      >
+      <br>
+      <br>
+      <label for="address-surname">*Surname</label>
+      <input
+        type="text"
+        name="address-surname"
+        id="address-surname"
+        placeholder="Surname"
+        required
+      >
+      <br>
+      <br>
+      <label for="address-phone">*Phone</label>
+      <input
+        type="tel"
+        name="address-phone"
+        id="address-phone"
+        placeholder="Phone"
+        required
+      >
+      <br>
+      <br>
+      <label for="address1">*Address Line 1</label>
+      <input
+        type="text"
+        name="address1"
+        id="address1"
+        placeholder="Address Line 1"
+        required
+      >
+      <br>
+      <br>
+      <label for="address2">Address Line 2</label>
+      <input
+        type="text"
+        name="address2"
+        id="address2"
+        placeholder="Address Line 2"
+      >
+      <br>
+      <br>
+      <label for="city">*City</label>
+      <input
+        type="text"
+        name="city"
+        id="city"
+        placeholder="City"
+        required
+      >
+      <br>
+      <br>
+      <label for="state">*State</label>
+      <select
+        id="state"
+        name="state"
+        required
+      >
+        <option value="">--State--</option>
+        <option value="alabama">Alabama</option>
+        <option value="arkansas">Arkansas</option>
+        <option value="northDakota">North Dakota</option>
+        <option value="newYork">New York</option>
+        <option value="boston">Boston</option>
+      </select>
+      <br>
+      <br>
+      <label for="postcode">*Postcode</label>
+      <input
+        type="text"
+        name="postcode"
+        id="postcode"
+        placeholder="Postcode"
+        required
+      >
+    </fieldset>
+    <fieldset>
+      <legend>Card Information</legend>
+      <label for="card-number">*Card number</label>
+      <input
+        type="text"
+        name="card-number"
+        id="card-number"
+        placeholder="Card Number"
+        required
+      >
+      <br><br>
+      <label for="card-name">*Name on card</label>
+      <input
+        type="text"
+        name="card-name"
+        id="card-name"
+        placeholder="Name on card"
+        required
+      >
+      <br><br>
+      <label for="card-expiry-month">*Expiry Month</label>
+      <select
+        id="card-expiry-month"
+        name="card-expiry-month"
+        required
+      >
+        <option value="january">January</option>
+        <option value="february">February</option>
+        <option value="march">March</option>
+        <option value="april">April</option>
+        <option value="may">May</option>
+        <option value="june">June</option>
+        <option value="july">July</option>
+        <option value="august">August</option>
+        <option value="september">September</option>
+        <option value="october">October</option>
+        <option value="november">November</option>
+        <option value="december">December</option>
+      </select>
+      <label for="card-expiry-year">*Expiry Year</label>
+      <select
+        id="card-expiry-year"
+        name="card-expiry-year"
+        required
+      >
+        <option value="1990">1990</option>
+        <option value="19912">1991</option>
+        <option value="1992">1992</option>
+        <option value="1993">1993</option>
+        <option value="1994">1994</option>
+        <option value="1995">1995</option>
+        <option value="1996">1996</option>
+        <option value="1997">1997</option>
+        <option value="1998">1998</option>
+        <option value="1999">1999</option>
+        <option value="2000">2000</option>
+        <option value="2001">2001</option>
+      </select>
+      <label for="card-cvv">*CVV</label>
+      <input
+        type="text"
+        name="card-cvv"
+        id="card-cvv"
+        placeholder="CVV"
+        required
+      >
+      <br><br>
+      <p><i>WE do not store credit card information!</i></p>
+    </fieldset>
+    <fieldset>
+      <legend>Form Controls</legend>
+      <input
+        name="terms"
+        id="terms"
+        type="checkbox"
+        required
+      >
+      <label for="terms">*You are required to agree to the <a
+          href="https://www.google.com/"
+          target="_blank"
+          title="terms and conditions"
+          rel="noopener noreferrer"
+        >terms and conditions</a></label>
+      <br>
+      <input
+        name="subscribe"
+        id="subscribe"
+        type="checkbox"
+      >
+      <label for="subscribe">Can you send you emails?</label>
+      <br>
+      <input
+        name="gdpr-consent"
+        id="gdpr-consent"
+        type="checkbox"
+      >
+      <label for="gdpr-consent">GDPR generic conscent?</label>
+
+      <br>
+      <br>
+
+      <button
+        name="submit"
+        type="submit"
+        id="submit"
+        title="Place Order"
+      >Place Order</button>
+      <button
+        name="reset"
+        type="reset"
+        id="reset"
+        title="Reset"
+      >Reset</button>
+      <br><br>
+    </fieldset>
+  </form>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+
+  <p>
+    <a
+      href="https://www.google.com/"
+      target="_blank"
+      title="Home"
+      rel="noopener noreferrer"
+    >Home</a>
+    <span> * </span>
+    <a
+      href="https://www.google.com/"
+      target="_blank"
+      title="Place Order"
+      rel="noopener noreferrer"
+    > <b>Place Order</b></a>
+    <span> * </span>
+    <a
+      href="https://www.google.com/"
+      target="_blank"
+      title="Customer Service"
+      rel="noopener noreferrer"
+    >Customer Service</a>
+    <span> * </span>
+    <a
+      href="https://www.google.com/"
+      target="_blank"
+      title="Contact"
+      rel="noopener noreferrer"
+    >Contact</a>
+  </p>
 
   <div
     class="pixeltab-host"
