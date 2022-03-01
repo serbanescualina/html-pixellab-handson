@@ -13,17 +13,26 @@ body {
   top: 0;
   right: 0;
   background-color: black;
+  color: #fff;
+  padding: 16px;
   z-index: 1;
 }
 
-.nav-top a {
+.nav-top a,
+.nav-bottom a  {
   color: white;
 }
 
 .container .legend{
   position: absolute;
-  background-color: gray;
+  top: 0;
+  left: 0;
   border: 1px solid red;
+  background-color: gray;
+  top: -10px;
+  left: 16px;
+  padding: 2px;
+  color: white;
 
 }
 
@@ -41,8 +50,4 @@ body {
   left: 0;
   background-color: green;
   z-index: 1;
-}
-
-.nav-bottom a {
-  color: white;
 }
