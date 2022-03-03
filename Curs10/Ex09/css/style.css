@@ -10,7 +10,9 @@ h1 {
 }
 
 .header h1 {
-  color: blue;
+  color: green;
+  text-decoration: underline solid green;
+  padding: 5px;
 }
 
 p {
@@ -18,6 +20,8 @@ p {
 }
 
 .para {
-  text-decoration: none; 
-  color: blueviolet
+  text-decoration: none;
+  color: purple;
+  font-size: 25px;
+  font-style: italic;
 }
