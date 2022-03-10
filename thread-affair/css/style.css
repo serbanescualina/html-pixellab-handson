@@ -1,21 +1,3 @@
-font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-LightItalic.woff2') format('woff2'),
-    url('../fonts/Roboto-LightItalic.woff') format('woff');
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-BoldItalic.woff2') format('woff2'),
-    url('../fonts/Roboto-BoldItalic.woff') format('woff');
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
@@ -27,9 +9,9 @@ font-face {
 
 @font-face {
   font-family: 'Roboto';
-  src: url('../fonts/Roboto-Black.woff2') format('woff2'),
-    url('../fonts/Roboto-Black.woff') format('woff');
-  font-weight: 900;
+  src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+    url('../fonts/Roboto-Regular.woff') format('woff');
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
@@ -45,45 +27,9 @@ font-face {
 
 @font-face {
   font-family: 'Roboto';
-  src: url('../fonts/Roboto-Light.woff2') format('woff2'),
-    url('../fonts/Roboto-Light.woff') format('woff');
+  src: url('../fonts/Roboto-LightItalic.woff2') format('woff2'),
+    url('../fonts/Roboto-LightItalic.woff') format('woff');
   font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
-    url('../fonts/Roboto-Bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-BlackItalic.woff2') format('woff2'),
-    url('../fonts/Roboto-BlackItalic.woff') format('woff');
-  font-weight: 900;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-Thin.woff2') format('woff2'),
-    url('../fonts/Roboto-Thin.woff') format('woff');
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-MediumItalic.woff2') format('woff2'),
-    url('../fonts/Roboto-MediumItalic.woff') format('woff');
-  font-weight: 500;
   font-style: italic;
   font-display: swap;
 }
@@ -99,12 +45,71 @@ font-face {
 
 @font-face {
   font-family: 'Roboto';
-  src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
-    url('../fonts/Roboto-Regular.woff') format('woff');
-  font-weight: normal;
+  src: url('../fonts/Roboto-Thin.woff2') format('woff2'),
+    url('../fonts/Roboto-Thin.woff') format('woff');
+  font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+    url('../fonts/Roboto-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Black.woff2') format('woff2'),
+    url('../fonts/Roboto-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Light.woff2') format('woff2'),
+    url('../fonts/Roboto-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-BlackItalic.woff2') format('woff2'),
+    url('../fonts/Roboto-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-MediumItalic.woff2') format('woff2'),
+    url('../fonts/Roboto-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-BoldItalic.woff2') format('woff2'),
+    url('../fonts/Roboto-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
 html,
 body,
@@ -234,6 +239,227 @@ table {
 * {
   box-sizing: border-box;
 }
+
 body {
   font-family: 'Roboto', 'sans-serif';
+  color: #707070;
+  font-size: 16px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1284px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-top: 40px;
+}
+
+.header-customer-support {
+  float: left;
+}
+
+.header-customer-support li {
+  display: inline-block;
+}
+
+.header-customer-support li:first-child .icon {
+  font-size: 28px;
+  color: #ff6b6b;
+}
+
+.header-customer-support li:first-child::after {
+  margin: 0 16px;
+  content: 'I';
+}
+
+.header-site-controls {
+  float: right;
+}
+
+.header-site-controls li {
+  display: inline-block;
+}
+
+.header-user-controls {
+  margin-right: 40px;
+}
+
+.header-user-controls .icon {
+  transform: translateY(-12px);
+}
+
+.header-cart-controls {
+  position: relative;
+}
+
+.header-cart-controls a :nth-child(1) {
+  font-size: 32px;
+}
+
+.header-cart-controls a :last-child {
+  background-color: #ff6b6b;
+  color: #fff;
+  padding: 3px 6px;
+  display: inline-block;
+  border-radius: 10px;
+  height: 21px;
+  position: absolute;
+  right: -8px;
+}
+
+.header-logo {
+  text-align: center;
+  clear: both;
+}
+
+.header-bottom .nav-main {
+  margin-bottom: 24px;
+}
+
+.header-bottom .nav-main ul {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.header-bottom .nav-main li {
+  display: inline-block;
+  margin: 0 16px;
+}
+
+.header-bottom .nav-main a {
+  padding: 8px 16px;
+  transition: color 0.4s linear, background-color 0.4s linear;
+  border-radius: 20px;
+}
+
+.header-bottom .nav-main a:hover {
+  color: #fff;
+  background-color: #ff6b6b;
+}
+
+.header-bottom .nav-secondary ul {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.header-bottom .nav-secondary li {
+  display: inline-block;
+  margin: 0 16px;
+}
+
+.header-bottom .nav-secondary a {
+  transition: color 0.4s linear;
+}
+
+.header-bottom .nav-secondary a:hover {
+  color: #ff6b6b;
+}
+
+.footer {
+  margin-bottom: 48px;
+  font-size: 14px;
+}
+
+.footer-top {
+  background: #1b1927 url('../images/banners/banner-06.jpg') right center
+    no-repeat;
+  color: #aeaeae;
+  text-transform: uppercase;
+  padding: 48px 0 48px 48px;
+}
+
+.footer-top .footer-nav {
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.footer-top .footer-nav ul {
+  margin-right: 32px;
+}
+
+.footer-top .footer-nav li {
+  margin-bottom: 8px;
+}
+
+.footer-top .footer-support,
+.footer-top .footer-contact,
+.footer-top .footer-support li {
+  display: inline-block;
+}
+
+.footer-top .footer-support {
+  margin-right: 76px;
+}
+
+.footer-top .footer-support ul {
+  text-align: center;
+}
+
+.footer-top .footer-support li {
+  margin: 0 16px;
+}
+
+.footer-top .footer-support li:first-child {
+  margin-left: 0;
+}
+
+.footer-top .footer-support li:last-child {
+  margin-right: 0;
+}
+
+.footer-top .footer-support i[class^='fa-'] {
+  display: block;
+  font-size: 42px;
+  color: #ff6b6b;
+  margin-bottom: 16px;
+}
+
+.footer-top .footer-contact {
+  text-transform: initial;
+}
+
+.footer-top .footer-contact h1 {
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 16px;
+}
+
+.footer-top .footer-contact h1 span {
+  font-weight: 500;
+}
+
+.footer-top .footer-contact p {
+  font-weight: 300;
+  line-height: 18px;
+}
+
+.footer-top .footer-contact p a:last-of-type {
+  color: #ff6b6b;
+}
+
+.footer-bottom {
+  margin-top: 24px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.footer-bottom p:first-of-type {
+  margin-bottom: 16px;
+}
+
+.content-header .banner-main {
+  background: url('../images/banners/banner-01.jpg') center center / cover
+    no-repeat #1b1927;
+  height: 572px;
 }
