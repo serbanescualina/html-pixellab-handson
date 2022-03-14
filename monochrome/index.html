@@ -12,7 +12,10 @@
     content="width=device-width, initial-scale=1.0"
   >
   <title>Monochrome</title>
-
+  <link
+    rel="stylesheet"
+    href="css/style.css"
+  >
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -24,9 +27,9 @@
 
 <body>
   <header class="header">
-    <section class="header-top">
+    <section class="header-top container d-flex">
       <section class="header-social-media">
-        <ul>
+        <ul class="d-flex">
           <li>
             <a
               href=""
@@ -82,7 +85,7 @@
       <!--/.header-social-media  -->
 
       <section class="header-site-controls">
-        <ul>
+        <ul class="d-flex">
           <li>
             <form action="/">
               <button
@@ -130,64 +133,59 @@
     </section>
     <!-- /.header-top -->
 
-    <nav class="header-bottom">
-      <ul>
-        <li>
-          <a
-            href=""
-            title="New Arrivals"
-          >new arrivals</a>
-        </li>
+    <section class="wrp-header-bottom d-flex">
+      <nav class="header-bottom container">
+        <ul class="d-flex">
+          <li>
+            <a
+              href=""
+              title="New Arrivals"
+            >new arrivals</a>
+          </li>
 
-        <li>
-          <a
-            href=""
-            title="Brands"
-          >Brands</a>
-        </li>
+          <li>
+            <a
+              href=""
+              title="Brands"
+            >Brands</a>
+          </li>
 
-        <li>
-          <a
-            href=""
-            title="Men's"
-          >Men's</a>
-        </li>
+          <li>
+            <a
+              href=""
+              title="Men's"
+            >Men's</a>
+          </li>
 
-        <li>
-          <a
-            href=""
-            title="Women's"
-          >Women's</a>
-        </li>
+          <li>
+            <a
+              href=""
+              title="Women's"
+            >Women's</a>
+          </li>
 
-        <li>
-          <a
-            href=""
-            title=""
-          ></a>
-        </li>
+          <li>
+            <a
+              href=""
+              title="Accessories"
+            >Accessories</a>
+          </li>
 
-        <li>
-          <a
-            href=""
-            title="Accessories"
-          >Accessories</a>
-        </li>
-
-        <li>
-          <a
-            href=""
-            title="Lookbook"
-          >Lookbook</a>
-        </li>
-      </ul>
-    </nav>
+          <li>
+            <a
+              href=""
+              title="Lookbook"
+            >Lookbook</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
     <!-- /.header-bottom -->
 
   </header>
   <!-- /.header -->
 
-  <main class="content">
+  <main class="content container">
     <section class="home-catalog-preview">
 
       <header>
@@ -791,145 +789,150 @@
   </main>
   <!-- /.content -->
 
-  <footer>
-    <section class="footer-support">
-      <ul>
-        <li>
-          <a href="tel:+44 (0)10 2345 6789">CALL US +44 (0)10 2345 6789 email custom care</a>
-        </li>
+  <footer class="wrp-footer">
+    <section class="footer container d-flex">
+      <section class="footer-support">
+        <ul>
+          <li>
+            <a href="tel:+44 (0)10 2345 6789"> <span>CALL US</span> +44 (0)10 2345 6789</a>
+          </li>
+          <li>
+            email custom care
+          </li>
 
-        <li>
-          <a
-            href=""
-            title="email custom care"
-          >
-            see mobile version</a>
-        </li>
-      </ul>
-    </section>
-    <!-- /.footer-support -->
+          <li>
+            <a
+              href=""
+              title="email custom care"
+            >
+              see mobile version</a>
+          </li>
+        </ul>
+      </section>
+      <!-- /.footer-support -->
 
-    <nav class="footer-details">
-      <ul>
-        <li>
-          <a
-            href=""
-            title="style & fit advice"
-          >style & fit advice</a>
-        </li>
-
-        <li>
-          <a
-            href=""
-            title="faqs"
-          >faqs</a>
-        </li>
-
-        <li>
-          <a
-            href=""
-            title="delivery"
-          >delivery</a>
-        </li>
-
-        <li>
-          <a
-            href=""
-            title="exanges & returns"
-          >exanges & returns</a>
-        </li>
-      </ul>
-    </nav>
-    <!-- /.footer-details -->
-
-    <nav class="footer-about-us">
-      <ul>
-        <li>
-          <a
-            href=""
-            title="about us"
-          >about us</a>
-        </li>
-
-        <li>
-          <a
-            href=""
-            title="careers"
-          >careers</a>
-        </li>
-
-        <li>
-          <a
-            href=""
-            title="affiliates"
-          >affiliates</a>
-        </li>
-
-        <li>
-          <a
-            href=""
-            title="advertising"
-          >advertising</a>
-        </li>
-      </ul>
-    </nav>
-    <!-- /.footer-about-us -->
-
-    <section class="footer-connect">
-      <ul class="footer-newsletter">
-        <li>
-          <span>sing up for our newsletter</span>
-        </li>
-
-        <li>
-          <form action="/">
-            <input type="email">
-            <button type="submit">Submit</button>
-          </form>
-        </li>
-      </ul>
-      <!-- /.footer-newsletter -->
-
-      <section class="footer-social-media">
+      <nav class="footer-details">
         <ul>
           <li>
             <a
               href=""
-              title="Youtube"
-            >
-              <i class="fa-brands fa-youtube"></i>
-            </a>
+              title="style & fit advice"
+            >style & fit advice</a>
           </li>
 
           <li>
             <a
               href=""
-              title="Twitter"
-            >
-              <i class="fa-brands fa-twitter"></i>
-            </a>
+              title="faqs"
+            >faqs</a>
           </li>
 
           <li>
             <a
               href=""
-              title="Facebook"
-            >
-              <i class="fa-brands fa-facebook"></i>
-            </a>
+              title="delivery"
+            >delivery</a>
           </li>
 
           <li>
             <a
               href=""
-              title="Instagram"
-            >
-              <i class="fa-brands fa-instagram"></i>
-            </a>
+              title="exanges & returns"
+            >exanges & returns</a>
           </li>
         </ul>
+      </nav>
+      <!-- /.footer-details -->
+
+      <nav class="footer-about-us">
+        <ul>
+          <li>
+            <a
+              href=""
+              title="about us"
+            >about us</a>
+          </li>
+
+          <li>
+            <a
+              href=""
+              title="careers"
+            >careers</a>
+          </li>
+
+          <li>
+            <a
+              href=""
+              title="affiliates"
+            >affiliates</a>
+          </li>
+
+          <li>
+            <a
+              href=""
+              title="advertising"
+            >advertising</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.footer-about-us -->
+
+      <section class="footer-connect">
+        <ul class="footer-newsletter">
+          <li>
+            <span>sing up for our newsletter</span>
+          </li>
+
+          <li>
+            <form action="/">
+              <input type="email">
+              <button type="submit">Submit</button>
+            </form>
+          </li>
+        </ul>
+        <!-- /.footer-newsletter -->
+
+        <section class="footer-social-media">
+          <ul class="d-flex">
+            <li>
+              <a
+                href=""
+                title="Youtube"
+              >
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href=""
+                title="Twitter"
+              >
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href=""
+                title="Facebook"
+              >
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href=""
+                title="Instagram"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <!-- /.footer-social-media -->
       </section>
-      <!-- /.footer-social-media -->
     </section>
   </footer>
 
