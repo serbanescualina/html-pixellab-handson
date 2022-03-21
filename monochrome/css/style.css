@@ -377,7 +377,39 @@ a {
 .d-flex {
   display: flex;
 }
+.header-social-media i[class^='fa-']:hover {
+  transform: scale(1.5);
+}
 
+.header-social-media i.fa-youtube:hover {
+  color: red;
+}
+
+.header-social-media i.fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.header-social-media i.fa-facebook:hover {
+  color: #4267b2;
+}
+
+.header-site-controls li a i:hover {
+  color: black;
+  transform: scale(1.5);
+}
+
+.header-social-media i.fa-instagram:hover {
+  background-image: radial-gradient(
+      circle farthest-corner at 32% 106%,
+      rgb(255, 225, 125) 0%,
+      rgb(255, 205, 105) 10%,
+      rgb(250, 145, 55) 28%,
+      rgb(235, 65, 65) 42%,
+      transparent 82%
+    ),
+    linear-gradient(135deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+  border-radius: 10%;
+}
 /* .header  */
 
 .header {
@@ -447,6 +479,10 @@ a {
   height: 50px;
   align-items: center;
 }
+.wrap-btn {
+  border: 1px solid;
+  padding: 10px;
+}
 
 .wrap-header-bottom .header-bottom ul {
   justify-content: space-between;
@@ -480,4 +516,90 @@ a {
 }
 .footer-social-media ul a {
   font-size: 16px;
+}
+
+/* content */
+
+.content .home-catalog-preview [class*='title'],
+.home-catalog-preview .product-tile-pricing {
+  text-align: center;
+  font-weight: bold;
+}
+
+.content .section-title h1 {
+  margin: 20px auto 23px;
+  padding-top: 7px;
+  line-height: 47px;
+  font-size: 35px;
+  border-top: 1px solid #cccccc;
+}
+
+.product-tiles,
+.product-catalog-preview {
+  justify-content: space-between;
+}
+
+.product-tile {
+  position: relative;
+  width: 23.6725%;
+}
+
+.home-catalog-preview {
+  margin-bottom: 100px;
+}
+
+.home-catalog-preview .product-tile-title {
+  font-size: 22px;
+  margin: 21px auto 20px;
+  text-transform: uppercase;
+}
+.home-catalog-preview .product-tile-pricing {
+  font-size: 22px;
+}
+
+.product-tile .favorite {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.home-catalog-preview .footer-view-all {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.home-catalog-preview .footer-view-all a {
+  font-size: 22px;
+  font-family: 'Roboto';
+}
+
+/* product-catalog-preview */
+
+.product-catalog-preview {
+  margin-bottom: 100px;
+}
+
+.product-catalog-preview .product-recommandation-image {
+  width: 49.11%;
+}
+
+.product-catalog-preview .product-recommandation-details {
+  width: 41%;
+}
+
+.product-catalog-preview .product-recommandation-details h1 {
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.product-catalog-preview .product-recommandation-details p {
+  font-family: 'Roboto';
+  font-size: 22px;
+  line-height: 43px;
+  letter-spacing: 0.33px;
+}
+
+.product-catalog-preview .product-recommandation-details p:first-of-type {
+  margin: 40px auto 60px;
 }
