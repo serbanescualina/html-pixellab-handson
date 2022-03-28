@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    http-equiv="X-UA-Compatible"
+    content="IE=edge"
+  >
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <title>Document</title>
+  <link
+    rel="stylesheet"
+    href="node_modules/bootstrap/dist/css/bootstrap.css"
+  >
+  <link
+    rel="stylesheet"
+    href="css/ex2/style.css"
+  >
+</head>
+
+<body>
+  <header class="container-fluid container mx-auto">
+    <nav class="header-menu">
+      <ul class="d-flex">
+        <li>
+          <a
+            href="#home"
+            title="Home"
+            rel="noreferrer noopener"
+          >Home</a>
+        </li>
+        <li>*</li>
+        <li>
+          <a
+            href="#place-order"
+            title="Place Order"
+            rel="noreferrer noopener"
+          >Place Order</a>
+        </li>
+        <li>*</li>
+        <li>
+          <a
+            href="#customer-service"
+            title="Customer Service"
+            rel="noreferrer noopener"
+          >Customer Service</a>
+        </li>
+        <li>*</li>
+        <li>
+          <a
+            href="#contact"
+            title="Contact"
+            rel="noreferrer noopener"
+          >Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container-fluid mx-auto container">
+    <section class="place-order">
+      <header>
+        <h2>Place Order</h1>
+      </header>
+      <section class="contain-place-order">
+        <p class="text">This is the <b>guest checkout</b></p>
+
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+          eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+          mollit anim id est laborum.</p>
+      </section>
+    </section>
+
+    <section class="order-now">
+      <header>
+        <h2>Order Now</h2>
+        <h3 class="text-center">On our website <i>no account is needed</i>.</h3>
+      </header>
+      <section class="contain-order-now">
+        <ol>
+          <li>First we need some info about yourself. <b>Don’t forget to provide a phone.</b></li>
+          <li>Then we need your real shipping address.</li>
+          <li>Finally, your credit card information.
+          </li>
+        </ol>
+      </section>
+    </section>
+
+    <section class="customer-service row">
+      <section class="col-4">
+        <header>
+          <h4>Personal information</h4>
+        </header>
+        <section>
+          <form action="/">
+            <div>
+              <label for="male">Mr</label>
+              <input
+                type="radio"
+                name="gender"
+                id="male"
+                value="male"
+                required
+                checked
+              >
+              <label for="female">Ms</label>
+              <input
+                type="radio"
+                name="gender"
+                id="female"
+                value="female"
+                required
+              >
+              <label for="na">Unspecified</label>
+              <input
+                type="radio"
+                name="gender"
+                id="na"
+                value="na"
+                required
+              >
+            </div>
+
+            <div class="row">
+              <label
+                for="name"
+                class="col-5"
+              >*Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Name"
+                required
+                class="col-6"
+              >
+              <span class="col-1"></span>
+
+            </div>
+
+            <div class="row">
+              <label
+                for="surname"
+                class="col-5"
+              >*Surname</label>
+              <input
+                type="text"
+                name="surname"
+                id="surname"
+                placeholder="Surname"
+                required
+                class="col-6"
+              >
+              <span class="col-1"></span>
+
+            </div>
+
+            <div class="row">
+              <label
+                for="email"
+                class="col-5"
+              >*Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+                required
+                class="col-6"
+              >
+              <span class="col-1"></span>
+
+            </div>
+
+            <div class="row">
+              <label
+                for="phone"
+                class="col-5"
+              >*Phone</label>
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                placeholder="Phone"
+                required
+                class="col-6"
+              >
+              <span class="col-1"></span>
+
+            </div>
+          </form>
+        </section>
+      </section>
+      <section class="col-4">
+        <header>
+          <h4>Address</h4>
+        </header>
+        <section>
+          <form action="/">
+            <div class="row">
+              <label
+                class="col-5"
+                for="address-name"
+              >*Name</label>
+              <input
+                class="col-6"
+                type="text"
+                name="address-name"
+                id="address-name"
+                placeholder="Name"
+                required
+              >
+              <span class="col-1"></span>
+            </div>
+
+            <div class="row">
+              <label
+                class="col-5"
+                for="address-surname"
+              >*Surname</label>
+              <input
+                class="col-6"
+                type="text"
+                name="address-surname"
+                id="address-surname"
+                placeholder="Surname"
+                required
+              >
+              <span class="col-1"></span>
+            </div>
+
+            <div class="row">
+              <label
+                class="col-5"
+                for="address-phone"
+              >*Phone</label>
+              <input
+                class="col-6"
+                type="tel"
+                name="address-phone"
+                id="address-phone"
+                placeholder="Phone"
+                required
+              >
+              <span class="col-1"></span>
+            </div>
+
+            <div class="row">
+              <label
+                class="col-5"
+                for="address1"
+              >*Address Line 1</label>
+              <input
+                class="col-6"
+                type="text"
+                name="address1"
+                id="address1"
+                placeholder="Address Line 1"
+                required
+              >
+              <span class="col-1"></span>
+            </div>
+
+            <div class="row">
+              <label
+                class="col-5"
+                for="address2"
+              >Address Line 2</label>
+              <input
+                class="col-6"
+                type="text"
+                name="address2"
+                id="address2"
+                placeholder="Address Line 2"
+              >
+              <span class="col-1"></span>
+
+            </div>
+
+            <div class="row">
+              <label
+                class="col-5"
+                for="city"
+              >*City</label>
+              <input
+                class="col-6"
+                type="text"
+                name="city"
+                id="city"
+                placeholder="City"
+                required
+              >
+              <span class="col-1"></span>
+            </div>
+
+            <div class="row">
+              <label
+                class="col-5"
+                for="state"
+              >*State</label>
+              <select
+                class="col-6"
+                id="state"
+                name="state"
+                required
+              >
+                <option value="">--State--</option>
+                <option value="alabama">Alabama</option>
+                <option value="arkansas">Arkansas</option>
+                <option value="northDakota">North Dakota</option>
+                <option value="newYork">New York</option>
+                <option value="boston">Boston</option>
+              </select>
+              <span class="col-1"></span>
+            </div>
+
+            <div class="row">
+              <label
+                class="col-5"
+                for="postcode"
+              >*Postcode</label>
+              <input
+                class="col-6"
+                type="text"
+                name="postcode"
+                id="postcode"
+                placeholder="Postcode"
+                required
+              >
+              <span class="col-1"></span>
+            </div>
+          </form>
+        </section>
+      </section>
+      <section class="col-4">
+        <header>
+          <h4>Card information</h4>
+        </header>
+        <section>
+          <form action="/">
+            <div class="row">
+              <label
+                class="col-5"
+                for="card-number"
+              >*Card number</label>
+              <input
+                class="col-6"
+                type="text"
+                name="card-number"
+                id="card-number"
+                placeholder="Card Number"
+                required
+              >
+              <span class="col-1"></span>
+            </div>
+
+            <div class="row">
+              <label
+                class="col-5"
+                for="card-name"
+              >*Name on card</label>
+              <input
+                class="col-6"
+                type="text"
+                name="card-name"
+                id="card-name"
+                placeholder="Name on card"
+                required
+              >
+              <span class="col-1"></span>
+            </div>
+
+            <div class="row">
+              <label
+                class="col-5"
+                for="card-expiry-month"
+              >*Expiry Month</label>
+              <select
+                class="col-6"
+                id="card-expiry-month"
+                name="card-expiry-month"
+                required
+              >
+                <option value="january">January</option>
+                <option value="february">February</option>
+                <option value="march">March</option>
+                <option value="april">April</option>
+                <option value="may">May</option>
+                <option value="june">June</option>
+                <option value="july">July</option>
+                <option value="august">August</option>
+                <option value="september">September</option>
+                <option value="october">October</option>
+                <option value="november">November</option>
+                <option value="december">December</option>
+              </select>
+              <span class="
+                  col-1"></span>
+            </div>
+
+            <div class="row">
+              <label
+                class="col-5"
+                for="card-expiry-year"
+              >*Expiry Year</label>
+              <select
+                class="col-6"
+                id="card-expiry-year"
+                name="card-expiry-year"
+                required
+              >
+                <option value="1990">1990</option>
+                <option value="1991">1991</option>
+                <option value="1992">1992</option>
+                <option value="1993">1993</option>
+                <option value="1994">1994</option>
+                <option value="1995">1995</option>
+                <option value="1996">1996</option>
+                <option value="1997">1997</option>
+                <option value="1998">1998</option>
+                <option value="1999">1999</option>
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+              </select>
+              <span class="col-1"></span>
+            </div>
+
+            <div class="row">
+              <label
+                class="col-5"
+                for="card-cvv"
+              >*CVV</label>
+              <input
+                class="col-6"
+                type="text"
+                name="card-cvv"
+                id="card-cvv"
+                placeholder="CVV"
+                required
+              >
+              <span class="col-1"></span>
+            </div>
+
+            <p class="text-center"><i>WE do not store credit card information!</i></p>
+
+          </form>
+        </section>
+      </section>
+      <section class="wrap-form-controls row">
+        <div class="col-3"></div>
+        <section class="form-controls col-6">
+          <header>
+            <h4>Form controls</h4>
+          </header>
+          <form
+            class="container container-fluid row"
+            action="/"
+          >
+            <div>
+              <input
+                name="terms"
+                id="terms"
+                type="checkbox"
+                required
+              >
+              <label for="terms">*You are required to agree to the <a
+                  href="https://www.google.com/"
+                  target="_blank"
+                  title="terms and conditions"
+                  rel="noopener noreferrer"
+                >terms and conditions</a></label>
+            </div>
+
+            <div>
+              <input
+                name="subscribe"
+                id="subscribe"
+                type="checkbox"
+              >
+              <label for="subscribe">Can you send you emails?</label>
+            </div>
+
+            <div>
+              <input
+                name="gdpr-consent"
+                id="gdpr-consent"
+                type="checkbox"
+              >
+              <label for="gdpr-consent">GDPR generic conscent?</label>
+            </div>
+
+            <div class="row wrap-buttons">
+              <button
+                name="submit"
+                type="submit"
+                id="submit"
+                title="Place Order"
+                class="col-5 btn btn btn-primary"
+              >Place Order</button>
+              <span class="col-2"></span>
+              <button
+                name="reset"
+                type="reset"
+                id="reset"
+                title="Reset"
+                class="col-5 btn btn btn-secondary"
+              >Reset</button>
+            </div>
+          </form>
+        </section>
+        <div class="col-3"></div>
+      </section>
+    </section>
+
+  </main>
+
+
+  <footer class="container-fluid mx-auto container">
+    <section class="contact">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum.
+      </p>
+    </section>
+    <nav class="header-menu">
+      <ul class="d-flex">
+        <li>
+          <a
+            href="#home"
+            title="Home"
+            rel="noreferrer noopener"
+          >Home</a>
+        </li>
+        <li>*</li>
+        <li>
+          <a
+            href="#place-order"
+            title="Place Order"
+            rel="noreferrer noopener"
+          >Place Order</a>
+        </li>
+        <li>*</li>
+        <li>
+          <a
+            href="#customer-service"
+            title="Customer Service"
+            rel="noreferrer noopener"
+          >Customer Service</a>
+        </li>
+        <li>*</li>
+        <li>
+          <a
+            href="#contact"
+            title="Contact"
+            rel="noreferrer noopener"
+          >Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li:nth-child(2n) {
+  margin: 0 5px;
+}
+
+.order-now h3 {
+  font-size: inherit;
+  margin: 30px 0 15px;
+}
+
+.customer-service {
+  margin-top: 40px;
+}
+
+.wrap-form-controls {
+  margin: 20px 0;
+}
+
+.wrap-form-controls .wrap-buttons {
+  margin: 10px 0;
+}
